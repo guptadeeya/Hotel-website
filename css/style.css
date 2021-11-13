@@ -46,8 +46,9 @@ p{
   color: #fff;
   background: #333;
   padding: 15px 20px;
-  margin-top: 35px;
+  margin-top: 5px;
   cursor: pointer;
+  border-radius: 10px;
 }
 
 .btn:hover{
@@ -129,6 +130,10 @@ height: 600px;
 
 }
 
+#home-info {
+  height: 390px;
+}
+
 #home-info .info-img , img{
   float: left; 
   height: 390px;
@@ -154,6 +159,7 @@ height: 600px;
 
 .box svg{
   max-width: 30px;
+  max-height: 30px;
 }
 
 #features h3{
@@ -161,5 +167,6 @@ height: 600px;
 }
 
 #features {
-  /* display: flex; */
+  display: flex;
+  padding: 0 2rem;
 }
